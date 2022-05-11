@@ -19,12 +19,12 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Oh, hello there..",
+  title: "Hello,",
   logo_name: "Paul Nasdaq",
-  nickname: "self_taught_SE",
+  nickname: "#self-taught SE",
   subTitle:
     `
-    Hi, once again. My name is Paul Nasdaq. I am a Full-stack software developer from Nairobi, Kenya
+    Hi, my name is Paul Nasdaq. I am a Full-stack software developer from Nairobi, Kenya
     `,
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
@@ -69,7 +69,7 @@ const socialMediaLinks = [
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/paulnasdaq",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2" // Reference https://simpleicons.org/?q=facebook
   },
@@ -134,9 +134,11 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask"
+        "⚡ I build responsive frontend web applications using Angular",
+        // "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "⚡ I create backend applications in Python (Flask, FastAPI)",
+        "⚡ I create backend applications in NodeJS (ExpressJS, NestJS)",
+        "⚡ I also build API's (REST)",
       ],
       softwareSkills: [
         {
@@ -169,10 +171,10 @@ const skills = {
           }
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
           style: {
-            color: "#61DAFB"
+            color: "#DD0031"
           }
         },
         {
@@ -190,64 +192,92 @@ const skills = {
           }
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "python",
+          fontAwesomeClassname: "simple-icons:python",
           style: {
-            color: "#2C8EBB"
+            color: "#3776AB"
           }
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#663399"
+            color: "#3178C6"
           }
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "NestJS",
+          fontAwesomeClassname: "simple-icons:nestjs",
           style: {
-            color: "#02569B"
+            color: "#E0234E"
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#7952B3"
+          },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
+          style: {
+            color: "#000000"
           }
-        }
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: {
+            color: "#009688"
+          }
+        },
+        {
+          skillName: "ExpressJS",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "#000000"
+          }
+        },
       ]
     },
     {
-      title: "Dev Ops",
+      title: "Dev Ops/Server administration",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS"
+        "⚡ I help individuals deploy and maintain applications on various platforms",
+        "⚡ I help individuals setup, configure and administer servers (Ubuntu, SQL/NoSQL, HTTP, AMQP)",
+        "⚡ I am currently learning AWS and GCP (stay tuned :) )",
+        // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS"
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Linux Administration",
+          fontAwesomeClassname: "simple-icons:ubuntu",
           style: {
-            color: "#4285F4"
+            color: "#E95420"
           }
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "DigitalOcean",
+          fontAwesomeClassname: "simple-icons:digitalocean",
           style: {
-            color: "#FF9900"
+            color: "#0080FF"
           }
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "Nginx",
+          fontAwesomeClassname: "simple-icons:nginx",
           style: {
-            color: "#0089D6"
+            color: "#009639"
           }
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Jenkins",
+          fontAwesomeClassname: "simple-icons:jenkins",
           style: {
-            color: "#FFCA28"
+            color: "#D24939"
           }
         },
         {

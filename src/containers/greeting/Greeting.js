@@ -15,10 +15,10 @@ export default function Greeting(props) {
           <div className="greeting-text-div">
             <div>
               <h1 className="greeting-text" style={{ color: theme.text }}>
-                {greeting.title} &#128075;
+                {greeting.title}
               </h1>
               <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                ( {greeting.nickname} )
+                ({greeting.nickname})
               </h2>
               <p
                 className="greeting-text-p subTitle"
