@@ -19,17 +19,17 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Hello,",
+  title: "May CODE be with us.",
   logo_name: "Paul Nasdaq",
   nickname: "#self-taught SE",
   subTitle:
     `
-    Hi, my name is Paul Nasdaq. I am a Full-stack software developer from Nairobi, Kenya
+    My name is Paul Nasdaq. I am a Full-stack software developer from Nairobi, Kenya.
     `,
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://drive.google.com/file/d/1iEaDYOl0DReFiOLueVwjvu2hrrGFK4Gc/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919"
+  githubProfile: "https://github.com/paulnasdaq"
 };
 
 const socialMediaLinks = [
@@ -45,7 +45,7 @@ const socialMediaLinks = [
 
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/paul-nasdaq/",
+    link: "https://www.linkedin.com/in/paulnasdaq/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5" // Reference https://simpleicons.org/?q=linkedin
   },
@@ -63,7 +63,7 @@ const socialMediaLinks = [
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/PaulNasdaq",
+    link: "https://twitter.com/paulnasdaq",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2" // Reference https://simpleicons.org/?q=twitter
   },
@@ -81,7 +81,7 @@ const socialMediaLinks = [
   },
   {
     name: "Github",
-    link: "https://github.com/nasdaqPaul",
+    link: "https://github.com/paulnasdaq",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717" // Reference https://simpleicons.org/?q=github
   },
@@ -134,11 +134,14 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ I build responsive frontend web applications using Angular",
+        "✔️ I build responsive frontend web applications using Angular.",
         // "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ I create backend applications in Python (Flask, FastAPI)",
-        "⚡ I create backend applications in NodeJS (ExpressJS, NestJS)",
-        "⚡ I also build API's (REST)",
+        "✔️ I create backend applications in Python (Flask, FastAPI).",
+        "✔️ I create backend applications in NodeJS (ExpressJS, NestJS).",
+        "✔️ I also build API's (REST).",
+        "⏳ .. currently learning ReactJS.",
+        "⏳ .. currently learning Django.",
+        "⏳ .. currently learning GoLang.",
       ],
       softwareSkills: [
         {
@@ -246,9 +249,13 @@ const skills = {
       title: "Dev Ops/Server administration",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ I help individuals deploy and maintain applications on various platforms",
-        "⚡ I help individuals setup, configure and administer servers (Ubuntu, SQL/NoSQL, HTTP, AMQP)",
-        "⚡ I am currently learning AWS and GCP (stay tuned :) )",
+        "✔️ I help individuals deploy and maintain applications on various platforms.",
+        "✔️ I help individuals setup, configure and administer servers (Ubuntu, SQL/NoSQL, HTTP, AMQP).",
+        "✔️ I have some experience with container technologies using Docker.",
+        "✔️ I have some experience with CD/CD using Jenkins",
+        "⏳ .. currently learning Kubernetes.",
+        "⏳ .. currently learning GCP.",
+        "⏳ .. currently learning AWS.",
         // "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS"
       ],
       softwareSkills: [
@@ -401,11 +408,11 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "Machakos University",
+      subtitle: "Bachelor of Science (Computer Science)",
       logo_path: "iiitk_logo.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      duration: "2016 - 2021",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
         "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
@@ -671,7 +678,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects are implemented in a variety of tools and technologies. Most of them are web applications in Python and Javascript",
   avatar_image_path: "projects_image.svg"
 };
 
@@ -688,7 +695,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development."
+      "I am available on the following platforms. Feel free to reach out to me at any time of the day. I can help you with Python, Javascript, Linux and general web development."
   },
   blogSection: {
     title: "Blogs",

@@ -8,6 +8,18 @@ import FeelingProud from "./FeelingProud";
 
 export default function Greeting(props) {
   const theme = props.theme;
+  function getGreeting() {
+    const now = new Date();
+    if (now.getHours() < 12){
+      return 'Hi, good morning';
+    }
+    else if(now.getHours() >= 12 && now.getHours() < 19){
+      return 'Hello, good afternoon'
+    }
+    else {
+      return 'Good evening'
+    }
+  }
   return (
     <Fade bottom duration={2000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -17,13 +29,14 @@ export default function Greeting(props) {
               <h1 className="greeting-text" style={{ color: theme.text }}>
                 {greeting.title}
               </h1>
-              <h2 className="greeting-nickname" style={{ color: theme.text }}>
-                ({greeting.nickname})
-              </h2>
+              {/*<h2 className="greeting-nickname" style={{ color: theme.text }}>*/}
+              {/*  ({greeting.nickname})*/}
+              {/*</h2>*/}
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
+                {getGreeting()},<br/>
                 {greeting.subTitle}
               </p>
               <SocialMedia theme={theme} />

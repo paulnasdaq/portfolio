@@ -131,4 +131,16 @@ const customTheme = {
   headerColor: "#C5D4D9",
 };
 
-export const chosenTheme = blackTheme;
+const paulNasdaqTheme = {
+  body: "#F2F2F2",
+  text: "#333333",
+  highlight: "#ffffff",
+  dark: "#000000",
+  secondaryText: "#405866",
+  imageHighlight: "#688EA6",
+  compImgHighlight: "#E6E6E6",
+  jacketColor: "#8d99ae",
+  headerColor: "#fca31177",
+};
+
+export const chosenTheme = paulNasdaqTheme;

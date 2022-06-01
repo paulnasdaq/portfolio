@@ -5,10 +5,12 @@ import styled from "styled-components";
 
 const IconWrapper = styled.span`
   i {
-    background-color: ${(props) => props.backgroundColor};
+    color: ${(props) => props.backgroundColor};
+    border: 0.5px solid ${({ theme }) => theme.secondaryText};
+    //vertical-align: middle;
   }
   &:hover i {
-    background-color: ${({ theme }) => theme.text};
+    background-color: ${({ theme }) => theme.secondaryText};
     transition: 0.3s ease-in;
   }
 `;
