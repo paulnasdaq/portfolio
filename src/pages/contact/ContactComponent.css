@@ -33,8 +33,8 @@
 }
 
 .contact-heading-img-div {
+  display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .blog-heading-img-div {
@@ -56,7 +56,6 @@
 
 .contact-heading-img-div > * {
   max-width: 100%;
-  height: auto;
 }
 
 .blog-heading-img-div > * {
@@ -139,6 +138,10 @@
 }
 
 @media (max-width: 768px) {
+  .contact-heading-img-div {
+    justify-content: center;
+    margin-bottom: 4em;
+  }
   .contact-heading-text {
     font-size: 30px;
     margin-top: 0px;

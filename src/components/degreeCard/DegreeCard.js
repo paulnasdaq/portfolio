@@ -12,8 +12,8 @@ class DegreeCard extends Component {
           <div className="card-img">
             <img
               style={{
-                maxWidth: "100%",
-                maxHeight: "100%",
+                display: "block",
+                margin: '0 auto',
                 transform: "scale(0.9)",
               }}
               src={require(`../../assests/images/${degree.logo_path}`)}
@@ -59,7 +59,7 @@ class DegreeCard extends Component {
                   style={{ backgroundColor: theme.headerColor }}
                 >
                   <p className="btn" style={{ color: theme.text }}>
-                    Visit Website
+                    View Certificate
                   </p>
                 </div>
               </a>

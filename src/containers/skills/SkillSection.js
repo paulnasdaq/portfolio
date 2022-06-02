@@ -12,9 +12,11 @@ function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
     return <DataScienceImg theme={props.theme} />;
   else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
+    // return <FullStackImg theme={props.theme} />;
+    return <img src="illustrations/homepage/fullstack-development.png" alt="" />
   else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
+    // return <CloudInfraImg theme={props.theme} />;
+    return <img src="illustrations/homepage/dev-ops/dev-ops.svg" alt="" />
   return <DesignImg theme={props.theme} />;
 }
 

@@ -3,9 +3,15 @@
   position: fixed;
   bottom: 1.2rem;
   right: 1.5rem;
-  cursor: pointer;
-  padding: 15px;
-  outline: none;
+  width: 3.6rem;
+  height: 3.6rem;
+  /*cursor: pointer;*/
+  /*padding: 15px;*/
+  /*outline: none;*/
   border-radius: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

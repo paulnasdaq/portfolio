@@ -140,7 +140,7 @@ const paulNasdaqTheme = {
   imageHighlight: "#688EA6",
   compImgHighlight: "#E6E6E6",
   jacketColor: "#8d99ae",
-  headerColor: "#fca31177",
+  headerColor: "#DCECF2",
 };
 
 export const chosenTheme = paulNasdaqTheme;

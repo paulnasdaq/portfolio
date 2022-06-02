@@ -18,7 +18,6 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    console.log(theme);
     const link = settings.isSplash ? "/splash" : "home";
     return (
       <Fade top duration={1000} distance="20px">
@@ -26,11 +25,11 @@ class Header extends Component {
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ color: theme.text }}> &lt;</span>
+              {/*<span style={{ color: theme.text }}> &lt;</span>*/}
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
               </span>
-              <span style={{ color: theme.text }}>/&gt;</span>
+              {/*<span style={{ color: theme.text }}>/&gt;</span>*/}
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
@@ -49,18 +48,18 @@ class Header extends Component {
                   Home
                 </NavLink>
               </li>
-              {/*<li>*/}
-              {/*  <NavLink*/}
-              {/*    to="/education"*/}
-              {/*    tag={Link}*/}
-              {/*    activeStyle={{ fontWeight: "bold" }}*/}
-              {/*    style={{ color: theme.text }}*/}
-              {/*    onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}*/}
-              {/*    onMouseOut={(event) => onMouseOut(event)}*/}
-              {/*  >*/}
-              {/*    Education*/}
-              {/*  </NavLink>*/}
-              {/*</li>*/}
+              <li>
+                <NavLink
+                  to="/education"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Education
+                </NavLink>
+              </li>
               {/*<li>*/}
               {/*  <NavLink*/}
               {/*    to="/experience"*/}
@@ -97,18 +96,18 @@ class Header extends Component {
               {/*    Open Source*/}
               {/*  </NavLink>*/}
               {/*</li>*/}
-              {/*<li>*/}
-              {/*  <NavLink*/}
-              {/*    to="/contact"*/}
-              {/*    tag={Link}*/}
-              {/*    activeStyle={{ fontWeight: "bold" }}*/}
-              {/*    style={{ color: theme.text }}*/}
-              {/*    onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}*/}
-              {/*    onMouseOut={(event) => onMouseOut(event)}*/}
-              {/*  >*/}
-              {/*    Contact Me*/}
-              {/*  </NavLink>*/}
-              {/*</li>*/}
+              <li>
+                <NavLink
+                  to="/contact"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Contact Me
+                </NavLink>
+              </li>
             </ul>
           </header>
         </div>
