@@ -15,7 +15,6 @@ export default class Main extends Component {
     const theme = this.props.theme;
     if (settings.isSplash) {
       return (
-        <div>
           <HashRouter basename="/">
             <Switch>
               <Route
@@ -74,11 +73,9 @@ export default class Main extends Component {
               />
             </Switch>
           </HashRouter>
-        </div>
       );
     } else {
       return (
-        <div>
           <HashRouter basename="/">
             <Switch>
               <Route
@@ -132,7 +129,6 @@ export default class Main extends Component {
               />
             </Switch>
           </HashRouter>
-        </div>
       );
     }
   }

@@ -6,9 +6,10 @@ import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
-import { competitiveSites } from "../../portfolio";
+import { competitiveSites, greeting } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import Button from "../../components/button/Button";
 
 class Education extends Component {
   render() {
@@ -39,6 +40,14 @@ class Education extends Component {
           </Fade>
           <Educations theme={this.props.theme} />
           <Certifications theme={this.props.theme} />
+          <div className="resume-btn-div">
+            <Button
+              text="See My Resume"
+              newTab={true}
+              href={greeting.resumeLink}
+              theme={theme}
+            />
+          </div>
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />

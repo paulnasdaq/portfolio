@@ -27,7 +27,7 @@ const greeting = {
     My name is Paul Nasdaq. I am a Full-stack software developer from Nairobi, Kenya.
     `,
   resumeLink:
-    "https://drive.google.com/file/d/1iEaDYOl0DReFiOLueVwjvu2hrrGFK4Gc/view?usp=sharing",
+    "https://drive.google.com/file/d/1XNJT-Q5zOFFnfNhUGDKQrl_VleK1Gqrx/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/paulnasdaq"
 };
@@ -429,30 +429,30 @@ const certifications = {
   certifications: [
     {
       title: "Web Development",
-      subtitle: "August 2018",
+      subtitle: "RCMRD",
       logo_path: "rcmrd_logo.png",
       certificate_link:
         "https://drive.google.com/file/d/1KfSI0yAj5E1QaVW5uCNJh1SoOU6V9Jcj/view?usp=sharing",
-      alt_name: "Stanford University",
+      alt_name: "Machakos University",
       color_code: "#ffffff"
     },
     // {
-    //   title: "Deep Learning",
-    //   subtitle: "- Andrew Ng",
-    //   logo_path: "deeplearning_ai_logo.png",
+    //   title: "KCSE",
+    //   subtitle: "KNEC",
+    //   logo_path: "knec_logo.png",
     //   certificate_link:
     //     "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099"
+    //   alt_name: "KNEC",
+    //   color_code: "#ffffff"
     // },
     // {
-    //   title: "ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
+    //   title: "KCPE",
+    //   subtitle: "KNEC",
+    //   logo_path: "knec_logo.png",
     //   certificate_link:
     //     "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899"
+    //   alt_name: "KNEC",
+    //   color_code: "#ffffff"
     // },
     // {
     //   title: "Data Science",
