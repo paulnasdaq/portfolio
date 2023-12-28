@@ -4,9 +4,8 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
-import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
-import { competitiveSites, greeting } from "../../portfolio";
+import { greeting } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 import Button from "../../components/button/Button";
@@ -34,6 +33,9 @@ class Education extends Component {
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   Basic Qualification and Certifcations
                 </h3>
+                <p className="subTitle experience-header-detail-text">I enjoy learning and exploring topics around
+                  technology, from software engineering all the way to UI/UX design, software product management, data
+                  science and artificial intelligence</p>
                 {/*<CompetitiveSites logos={competitiveSites.competitiveSites} />*/}
               </div>
             </div>

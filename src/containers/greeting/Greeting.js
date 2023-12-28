@@ -17,7 +17,7 @@ export default class Greeting extends Component{
     this.generateRandomQuote();
   }
   generateRandomQuote(){
-    fetch('https://programming-quotes-api.herokuapp.com/Quotes/random').then(res=>res.json()).then(data => {
+    fetch('random-quote').then(res=>res.json()).then(data => {
       this.setState({
         generatedQuote: data
       })
@@ -48,7 +48,7 @@ export default class Greeting extends Component{
                 {/*</h1>*/}
                 <div className='quote-container text-monospace'>
                   <p className='quote'>
-                    "{this.state.generatedQuote.en}"
+                    "{this.state.generatedQuote.quote}"
                   </p>
                   <p className='author'>
                     ~{this.state.generatedQuote.author}~
@@ -57,6 +57,14 @@ export default class Greeting extends Component{
                 {/*<h2 className="greeting-nickname" style={{ color: theme.text }}>*/}
                 {/*  ({greeting.nickname})*/}
                 {/*</h2>*/}
+                <div className="resume-btn-div">
+                  <Button
+                    text="Reload Quote"
+                    theme={this.theme}
+                    click={() => this.generateRandomQuote()}
+                  />
+                </div>
+
                 <p
                   className="greeting-text-p subTitle"
                   style={{ color: this.theme.secondaryText }}
@@ -64,6 +72,7 @@ export default class Greeting extends Component{
                   {this.getGreeting()},<br/>
                   {greeting.subTitle}
                 </p>
+
                 <SocialMedia theme={this.theme} />
                 {/*<div className="portfolio-repo-btn-div">*/}
                 {/*  <Button*/}

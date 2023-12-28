@@ -8,13 +8,14 @@ class ExperienceAccordion extends Component {
     const theme = this.props.theme;
     return (
       <div className="experience-accord">
-        <Accordion onChange={({ expanded }) => console.log(expanded)}>
+        <Accordion onChange={({ expanded }) => console.log(expanded)} expanded={true}>
           {this.props.sections.map((section) => {
             return (
               <Panel
                 className="accord-panel"
                 title={section["title"]}
                 key={section["title"]}
+                expanded //TODO: Fix this accordion bug!!!!!
               >
                 {section["experiences"].map((experience) => {
                   return (
