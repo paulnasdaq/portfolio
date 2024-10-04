@@ -27,7 +27,7 @@ const greeting = {
     My name is Paul Nasdaq. I am a Full-stack software developer from Nairobi, Kenya.
     `,
   resumeLink:
-    "https://drive.google.com/file/d/1clcove04RG29TUzZZgQjYMfGyTkGTBFh/view?usp=sharing",
+    "https://drive.google.com/file/d/19ZKVjwGwHuB-7nx0rVEnsjifq6JnYfOA/view?usp=sharing",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/paulnasdaq"
 };
@@ -407,6 +407,22 @@ const competitiveSites = {
 
 const degrees = {
   degrees: [
+    {
+      title: "University of East London",
+      subtitle: "Masters Degree (Computer Science)",
+      logo_path: "uel_logo.png",
+      alt_name: "Machakos University",
+      duration: "2024 - 2026",
+      hasNoCertificate: true,
+      descriptions: [
+        "⚡ I am currently pursuing a masters degree at UEL by a scholarship from UNICAF"
+        // "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
+        // "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
+        // "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        // "You can just ignore this sentence. There is a bug in my code that requires one long sentence or else my layout does not work the way I want it to, so this is the sentence. It really needs to be long, so bare with me"
+      ],
+      website_link: "https://drive.google.com/file/d/1KgPJ1FKpnIU7D5oNZ9wUbTfoB1uLxoo-/view?usp=sharing"
+    },
     {
       title: "Machakos University",
       subtitle: "Bachelor of Science (Computer Science)",

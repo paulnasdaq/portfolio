@@ -13,8 +13,8 @@ class DegreeCard extends Component {
             <img
               style={{
                 display: "block",
-                margin: '0 auto',
-                transform: "scale(0.9)",
+                margin: "0 auto",
+                transform: "scale(0.9)"
               }}
               src={require(`../../assests/images/${degree.logo_path}`)}
               alt={degree.alt_name}
@@ -49,20 +49,28 @@ class DegreeCard extends Component {
                   </p>
                 );
               })}
-              <a
-                href={degree.website_link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div
-                  className="visit-btn"
-                  style={{ backgroundColor: theme.headerColor }}
-                >
-                  <p className="btn" style={{ color: theme.text }}>
-                    View Certificate
-                  </p>
-                </div>
-              </a>
+              {
+                degree.hasNoCertificate ?
+                  <div className="visit-btn" style={{ border: "0.5px solid grey", color: 'grey' }}>
+                    <p className="btn" >View Certificate</p>
+                  </div>
+                  :
+                  <a
+                    href={degree.website_link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="disabled"
+                  >
+                    <div
+                      className="visit-btn"
+                      style={{ backgroundColor: theme.headerColor }}
+                    >
+                      <p className="btn" style={{ color: theme.text }}>
+                        View Certificate
+                      </p>
+                    </div>
+                  </a>
+              }
             </div>
           </div>
         </Fade>
